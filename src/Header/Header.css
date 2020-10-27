@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.header span {
+  color: #fa5252;
+  font-weight: bold;
+  font-size: 50px;
+}

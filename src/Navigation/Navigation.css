@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navBar {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.navBar_ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navBar_li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 20px;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+.navBar_li + li {
+  margin-left: 10px;
+}
