@@ -55,6 +55,10 @@ class App extends React.Component {
 
   render() {
     const {menu, selectedMenuList} = this.state;
+    let total_price = 0;
+    selectedMenuList.forEach(item => {
+      total_price = total_price + item.price;
+    })
     return (
       <div>
         <Header />
@@ -66,6 +70,15 @@ class App extends React.Component {
           <div className="app_payment_list">
             {selectedMenuList.map(selectedMenu => <Payment key={selectedMenu.id} data={selectedMenu}/>)}
           </div>
+          <div className="payment_total">
+          <div className="total_container">
+            <div className="total_title">총 액</div>
+            <div className="total_price">{total_price}원</div>
+          </div>
+          <div className="payment">
+            <span>결 제</span>
+          </div>
+        </div>
         </div>
       </div>
     )
