@@ -5,6 +5,8 @@
 
 .payment_list {
   width: 100px;
+  margin-top: 12px;
+  margin-left: 15px;
 }
 
 .payment_list img {
@@ -12,6 +14,7 @@
 }
 
 .list_name {
+  margin: 0px;
   display: block;
   text-align: center;
 }
@@ -20,50 +23,3 @@
   display: block;
   text-align: center;
 }
-
-/* .payment_total {
-  width: 50%;
-}
-
-.total_container {
-  display: flex;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.total_title {
-  width: 50%;
-  font-size: 50px;
-  font-weight: bold;
-  background-color: white;
-  border-radius: 15px;
-  margin-right: -15px;
-}
-
-.total_price {
-  width: 50%;
-  text-align: right;
-  font-size: 50px;
-  font-weight: bold;
-  background-color: white;
-  border-radius: 15px;
-  margin-left: -15px;
-}
-
-.payment {
-  margin-top: 5px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.payment span {
-  margin-right: 30px;
-  text-align: center;
-  width: 40%;
-  color: white;
-  font-size: 50px;
-  font-weight: bold;
-  background-color: red;
-  border-radius: 15px;
-} */
