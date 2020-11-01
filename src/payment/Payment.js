@@ -15,15 +15,6 @@ class Payment extends React.Component {
                 <span className="list_name">{data.name}</span>
                 <span className="list_price">{data.price}</span>
             </div>
-            // {/* <div className="payment_total">
-            //     <div className="total_container">
-            //         <div className="total_title">총 액</div>
-            //         <div className="total_price">{data.price}원</div>
-            //     </div>
-            //     <div className="payment">
-            //         <span>결 제</span>
-            //     </div>
-            // </div> */}
         );
     }
 }
